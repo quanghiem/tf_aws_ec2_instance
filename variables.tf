@@ -29,6 +29,11 @@ variable "tags" {
  }
 }
 
+variable "key_name" {}
+variable "vpc_security_group_ids" {}
+variable "associate_public_ip_address" {}
+variable "root_volume_size" {}
+
 // Variables for providers used in this module
 variable "aws_access_key" {}
 variable "aws_secret_key" {}
